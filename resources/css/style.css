@@ -1,0 +1,83 @@
+body{
+    background-color:hwb(337 76% 5% / 0.596) ;
+    display: flex;
+    column-gap: 60px;
+  
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 350px;
+   align-items: center;
+    height: 100%;
+    background-color:hwb(337 2% 71% / 0.918) ;
+    padding-bottom: 50px;
+    color: hwb(337 76% 5% / 1);
+    letter-spacing: 2.5px;
+    font-family: Pattaya;
+}
+.sidebar img{
+    max-width: 250px;
+    border-radius: 50%;
+}
+.sidebar p{
+    font-family: Pattaya;
+    font-size: 38px;
+    
+}
+.sidebar h1{
+    padding-top: 35px;
+}
+.sidebar a{
+    color:hwb(352 27% 6%) ;
+    line-height: 2.5;
+    letter-spacing: 1px;
+}
+.icon{
+    width:30px;
+    height: 30px;
+    padding-right: 20px;
+}
+.sidebar ul{
+    border-bottom: 1px solid hwb(337 76% 5% / 1);
+    padding-bottom: 35px;
+}
+   
+.contacts{
+  
+}
+.content{
+    flex-grow: 1;
+   row-gap: 15px;
+  
+}
+.content h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.edu,.job,.edu2,.navychky{
+    border: 1px solid hwb(337 2% 71% / 0.918);
+    color:hwb(337 2% 71% / 0.918);
+    padding:10px;
+    margin-bottom: 35px;
+    border-radius: 100px 0 100px 0;
+   box-shadow: hwb(337 2% 71% / 0.5) 5px 5px, hwb(337 2% 71% / 0.4) 10px 10px, hwb(337 2% 71% / 0.3) 15px 15px, hwb(337 2% 71% / 0.2) 20px 20px, hwb(337 2% 71% / 0.1) 25px 25px;;
+}
+
+@media screen and (max-width:600px){
+    body {
+        flex-direction: column;
+    }
+    .sidebar{
+        height: 100%;
+    }
+} 
+    
+
+    
