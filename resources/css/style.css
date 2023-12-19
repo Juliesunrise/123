@@ -95,6 +95,8 @@ background-color: hwb(86 28% 3% / 0.507);
     .sidebar{
        
         height: auto;
+margin-left:auto;
+margin-right:auto;
        
       
     }
