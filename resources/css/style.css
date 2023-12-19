@@ -87,14 +87,18 @@ background-color: hwb(86 28% 3% / 0.507);
 
 @media screen and (max-width:350px){
     body{
-        width:100%;
-       
+        width: 160%;
+        justify-content:center;
         flex-direction: column;
     }
     .sidebar{
+       
         height: auto;
-        align-content:stretch;
-        padding-bottom:1em;
+       margin-left: 2em;
+       margin-bottom:3em;
+    }
+    .sidebar ul{
+
     }
     ul li{
         padding-bottom: 10px;
