@@ -8,7 +8,8 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 350px;
+    min-width: 350px;
+    max-width:450px;
    align-items: center;
     height:100%;
     background-color:hwb(337 2% 71% / 0.918) ;
