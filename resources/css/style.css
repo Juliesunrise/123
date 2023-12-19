@@ -6,6 +6,8 @@ body{
 }
 main{
     height: auto;
+    display:flex;
+    flex-direction:row;
 }
 .sidebar{
     display: flex;
