@@ -58,9 +58,9 @@ main{
 }
 .content{
     flex-grow: 1;
-   row-gap: 15px;
+   row-gap: auto;
    padding: 0 2rem 0 2rem;
-   align-items: stretch;
+   align-content: space-around;
 }
 .content h1{
     text-align: center;
@@ -82,7 +82,7 @@ main{
 
 @media screen and (max-width:600px){
     main{
-        flex-wrap: wrap;
+       
         flex-direction: column;
     }
     .sidebar{
