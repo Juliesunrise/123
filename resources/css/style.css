@@ -89,7 +89,7 @@ background-color: hwb(86 28% 3% / 0.507);
     body{
         width: 160%;
         justify-content:center;
-        flex-direction: column;
+        flex-direction: row;
     }
     .sidebar{
        
