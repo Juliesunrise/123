@@ -26,6 +26,7 @@ main{
     color: hwb(98 51% 3%);
     letter-spacing: 2.5px;
     font-family: Pattaya;
+   padding-bottom:10em;
 }
 .sidebar img{
     max-width: 250px;
@@ -85,11 +86,11 @@ background-color: hwb(86 28% 3% / 0.507);
 }
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:420px){
     body{
         width: 160%;
        flex-wrap:wrap;
-        flex-direction: column;
+        flex-direction:row;
     }
     .sidebar{
        
