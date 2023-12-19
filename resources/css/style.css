@@ -4,12 +4,14 @@ body{
     column-gap: 60px;
   
 }
+main{
+    height: auto;
+}
 .sidebar{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    min-width: 450px;
-    max-width:550px;
+    max-width: 350px;
    align-items: center;
     height:100%;
     background-color:hwb(337 2% 71% / 0.918) ;
