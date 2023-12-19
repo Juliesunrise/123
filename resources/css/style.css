@@ -88,8 +88,8 @@ background-color: hwb(86 28% 3% / 0.507);
 @media screen and (max-width:450px){
     body{
         width: 160%;
-        justify-content:center;
-        flex-direction: row;
+       
+        flex-direction: column;
     }
     .sidebar{
        
